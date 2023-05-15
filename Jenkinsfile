@@ -2,7 +2,7 @@ pipeline {
    agent any
   
    environment {
-       DOCKER_HUB_REPO = "shivammitra/flask-hello-world"
+       DOCKER_HUB_REPO = "taq1970/jenkins-flask"
        CONTAINER_NAME = "flask-hello-world"
  
    }
